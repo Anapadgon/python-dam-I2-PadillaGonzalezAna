@@ -1,0 +1,8 @@
+Propmt utilizado en biblioteca.py:
+Necesito que me crees un programa en python, que sea un pequeño sistema que use diccionarios. En este caso debe de ser para una biblioteca en la que se ven sus libros y disponibilidad. 
+Este programa debe tener los siguientes puntos: Insertar, modificar y eliminar registros. Calcular al menos una métrica (media, suma, máximos...). Usar un bucle for para recorrer las 
+claves y valores. Por último, el código debe de ser lo más sencillo posible aunque sea más largo. Tengo que entender cada línea y aprender a como se hace el programa que vas a generar. 
+En este caso no se utilizan clases ni nada de ello, solo las cosas más básicas.
+Explicación:
+Este programa gestiona los libros de una biblioteca usando un diccionario con título, autor y cantidad disponible. Permite ver, insertar, modificar y eliminar libros, además de calcular 
+estadísticas como total, media y máximo de ejemplares. Recorre los libros con un for usando items() para mostrar sus datos, controla errores y sigue funcionando hasta que se elige salir.

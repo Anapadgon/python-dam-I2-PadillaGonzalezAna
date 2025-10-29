@@ -1,0 +1,33 @@
+Propmt utilizado en auxprecios.py y precios.py:
+- Estoy empezando con pyhton y quiero aprenderlo de manera sencilla y progresiva. Ahora mismo tengo este problema a resolver: 
+Crear un pequeño módulo en Python para analizar una lista de precios, el módulo debe utilizar unas funciones útiles para trabajar
+con esa lista, sin repetir cálculos. Mi documento se va a llamar auxprecios.py y quiero que me expliques todo el código paso a 
+paso para llegar a entender como se realiza. Además, después quiero crear un pequeño programa llamado precios.py en el que se utilice.
+- No entiendo casi nada de lo que me has puesto, pon métodos más fáciles de entender y un código más fácil
+Explicación:
+El archivo auxprecios.py es un módulo que contiene varias funciones simples para analizar una lista de precios: muestra los precios, calcula el máximo, 
+el mínimo, el promedio, aplica aumentos y genera un resumen con esos datos. El archivo precios.py utiliza ese módulo: crea una lista de precios, llama 
+a las funciones del módulo para obtener resultados y muestra por pantalla la información analizada. Así, auxprecios.py hace el trabajo y precios.py
+lo usa para presentar los resultados.
+
+Propmt utilizado en auxprecioserror.py y precioserror.py:
+-Ahora necesito que ambos códigos que me has dado antes junto a los módulos hechos, se modifiques los módulos para que sean más robustos. 
+Usando todos los bloques que he visto: try, except, else, finally y raise. Quiero que elabores dos casos de prueba donde de produzcan 
+errores y el programa no se rompa. Los archivos que voy a generar se van a llamar auxprecioserror.py y precioserror.py. Recuerda 
+siempre que necesito que hagas todo lo más sencillo posible para que lo entienda al completo
+- Explícame paso a paso todo lo implementado, tanto funciones como los parámetros de todo
+Explicación:
+auxprecioserror.py analiza listas de precios con funciones que manejan errores usando try, except, else, finally y raise, evitando que el programa se rompa.
+precioserror.py prueba esas funciones con listas correctas y con errores, mostrando mensajes claros sin detener la ejecución.
+
+Propmt utilizado en standarNoEstandar.py:
+- Teniendo en cuenta que mi grupo es compuesto por estudiantes
+ que acaban de empezar con Python, cómo podríamos realizar este
+ apartado:
+ Investigación de módulos (estándar y no estándar).
+ Elegid un módulo estándar y no estándar de Python, entended
+ para qué sirve y elaborar una pequeña ficha en la que
+ seleccionéis dos o tres funciones relevantes del módulo
+ y las expliquéis con un programa sencillito con su uso.
+
+- cambia este código para que request busque chistes en internet

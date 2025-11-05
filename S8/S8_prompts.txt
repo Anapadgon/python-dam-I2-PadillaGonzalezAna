@@ -1,0 +1,42 @@
+Propmt utilizado en anidados.py:
+- Necesito que me hagas un código de python lo más sencillo posible para que lo entienda ya que estoy aprendiendo. 
+Que el código haga lo siguiente: crear una estructura que contenga varios registros. Cada uno de estos registros 
+debe ser un diccionario con al menos tres campos que conforme una situación práctica cotidiana, en este caso quiero 
+que sea sobre el empleo que realiza mi padre que es jefe de panadería/horno en la franquicia de Mercadona. 
+Quiero que sea algo que le sirva a él en el día a día. Quiero que implemente funciones para: añadir registros, 
+buscar un registro por un campo, calcular una estadística (media, máximo, etc.). También que controle errores: 
+duplicados, vacíos, tipos incorrectos.
+- Quiero que sea más interactivo, que sea un programa en el que pueda añadir la cantidad vendida un día 
+en específico, añadir los tipos de pan, etc. Nunca olvides que quiero que el código sea lo más fácil posible ya que estoy aprendiendo
+- Explícame cada linea de codigo para que lo entienda
+
+Explicación:
+Lo que hace es gestionar las ventas diarias de una panadería de Mercadona. Permite añadir registros con el día, 
+tipo de pan y cantidad vendida, buscar por tipo de pan, mostrar todos los datos, calcular la media de ventas y 
+averiguar cuál fue el pan más vendido, controlando errores como campos vacíos, datos duplicados o valores incorrectos.
+
+Después de los errores comentados en clase he modificado el programa para que la lista produccion no sea una variable global. 
+Ahora, la lista se crea dentro de la función menu() y se pasa como parámetro a cada función. Cada función recibe la lista, 
+la utiliza (añadiendo, buscando o mostrando datos) y la devuelve actualizada con return produccion. De esta forma, el programa
+sigue funcionando igual, pero con una mejor estructura y sin usar variables globales.
+
+En cuanto a diferencias en una estructura inversa:
+- En una lista de diccionarios, cada elemento guarda toda la información de un solo registro (día, tipo de pan, cantidad).
+- Es útil cuando quieres recorrer los registros uno a uno o añadir nuevos datos fácilmente.
+- En un diccionario de listas, los datos están agrupados por una categoría (por ejemplo, todos los panes de un día o todas las ventas de un tipo).
+- Es más útil cuando quieres consultar rápidamente qué se vendió en un día concreto o agrupar información.
+
+------------------------------------------------------------------------------
+Prompt utilizado en refactor.py:
+- Quiero que visualices este código y me expliques los fallos del mismo, al igual que una idea de como arreglarlos.
+
+Explicación de lo realizado y visto:
+Este programa pide al usuario cuántos alumnos hay y la nota de cada uno. Después calcula la nota media y muestra cuáles han aprobado.
+También comprueba que los datos que se escriben sean correctos, por ejemplo, que no se pongan letras en vez de números, que las notas estén 
+entre 0 y 10, y que no se intente dividir si no hay alumnos.
+
+Antes el programa tenía varios fallos:
+- Algunas líneas estaban mal colocadas y el programa no funcionaba bien.
+- Solo se guardaba la última nota en lugar de todas.
+- Si el usuario escribía algo que no era un número, el programa se cerraba con error.
+- Si no había alumnos, el cálculo de la media daba un error.

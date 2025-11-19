@@ -1,0 +1,12 @@
+Propmt utilizado en final.py:
+- Necesito que me hagas un programa en python con estas características que sea lo más fácil posible de entender y que 
+no tenga nada complicado ya que estoy aprendiendo python y soy principiante. Además, explícame todo ello: Con el tema 
+de Generador de personajes videojuego tienes que hacer un programita funcional que tenga al menos 3 funciones, con 
+parámetros y retorno. Control de errores con try/except (por entradas erróneas, índices, etc.). Usar el módulo estándar random
+- Explícame todas las funciones línea a línea
+- Quiero que me expliques de nuevo del código de manera más fácil para poder entenderlo al completo
+
+Explicación:
+El código genera un personaje de videojuego pidiendo al usuario un nombre y una clase, asignándole estadísticas aleatorias
+y una descripción según su tipo; además permite subir de nivel mejorando un atributo al azar y usa control de errores 
+para asegurar que la entrada sea correcta.
